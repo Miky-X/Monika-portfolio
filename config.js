@@ -10,7 +10,6 @@ module.exports = {
   pathPrefix: `/gatsby-starter`,
   heading: 'MONIKA KACZMAREK',
   subHeading: 'ARTIST',
-  // social
   socialLinks: [
     {
       icon: 'fa-facebook',
