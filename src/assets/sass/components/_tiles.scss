@@ -3,23 +3,34 @@
   $duration: 0.5s;
   $ease: 'ease';
 
-  @include vendor('display', 'flex');
-  @include vendor('flex-wrap', 'wrap');
-  postiion: relative;
-  margin: ($gutter * -1) 0 0 ($gutter * -1);
+
+
+  display: inline-block;
+  margin: 16px;
+  position: relative;
+  &:before {
+    border-radius: 5px;
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+  }
 
   article {
     @include vendor(
-      'transition',
-      ('transform #{$duration} #{$ease}', 'opacity #{$duration} #{$ease}')
+                    'transition',
+                            ('transform #{$duration} #{$ease}', 'opacity #{$duration} #{$ease}')
     );
     position: relative;
     width: calc(#{(100% / 3)} - #{$gutter * 1});
     margin: $gutter 0 0 $gutter;
+    object-fit: fill;
 
     > .image {
       @include vendor('transition', 'transform #{$duration} #{$ease}');
-      position: relative;
+
       display: block;
       width: 100%;
       border-radius: _size(border-radius);
@@ -33,11 +44,11 @@
       &:before {
         @include vendor('pointer-events', 'none');
         @include vendor(
-          'transition',
-          (
-            'background-color #{$duration} #{$ease}',
-            'opacity #{$duration} #{$ease}'
-          )
+                        'transition',
+                                (
+                                        'background-color #{$duration} #{$ease}',
+                                        'opacity #{$duration} #{$ease}'
+                                )
         );
         content: '';
         display: block;
@@ -46,8 +57,9 @@
         left: 0;
         width: 100%;
         height: 100%;
+        opacity: 1;
         z-index: 1;
-        opacity: 1; // zmiana przyciemniena obrazu!!!!!!!!
+        opacity: 0; // zmiana przyciemniena obrazu!!!!!!!!
       }
 
       &:after {
@@ -63,7 +75,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        opacity: 0; // poczatkowe przyciemniene zdjecia!!!!!!
+        opacity: 0.4; // poczatkowe przyciemniene zdjecia!!!!!!
         z-index: 2;
       }
     }
@@ -74,11 +86,11 @@
       @include vendor('align-items', 'center');
       @include vendor('justify-content', 'center');
       @include vendor(
-        'transition',
-        (
-          'background-color #{$duration} #{$ease}',
-          'transform #{$duration} #{$ease}'
-        )
+                      'transition',
+                              (
+                                      'background-color #{$duration} #{$ease}',
+                                      'transform #{$duration} #{$ease}'
+                              )
       );
       font-size: 1.5em; // wielkosc tekstu w obrazie
       position: absolute;
@@ -108,8 +120,8 @@
 
       .content {
         @include vendor(
-          'transition',
-          ('max-height #{$duration} #{$ease}', 'opacity #{$duration} #{$ease}')
+                        'transition',
+                                ('max-height #{$duration} #{$ease}', 'opacity #{$duration} #{$ease}')
         );
         width: 100%;
         max-height: 0;
@@ -135,8 +147,8 @@
           @include vendor('transform', 'scale(1.065)'); // powiekszenie zdjecia po najechaiu
 
           &:before {
-            background-color: _palette(bl);
-            opacity: 0.6;
+            background-color: _palette(bg-accent);
+            opacity: 0;
           }
 
           &:after {
@@ -179,35 +191,50 @@
   }
 
   // wielkosci zdjec i ilosci w kolumnach
-  @include breakpoint('<=large') {
-    $gutter: _size(gutter) * 0.5;
+  @include  breakpoint('<=xlarge') {
+    $gutter: _size(gutter) * 0.3;
+    columns: 5;
 
     margin: ($gutter * -1) 0 0 ($gutter * -1);
 
     article {
-      width: calc(#{(100% / 3)} - #{$gutter * 1});
+      width: calc(#{(100%)} - #{$gutter * 1});
+      margin: $gutter 0 0 $gutter;
+    }
+  }
+
+  @include breakpoint('<=large') {
+    $gutter: _size(gutter) * 0.35;
+    columns: 4;
+
+    margin: ($gutter * -1) 0 0 ($gutter * -1);
+
+    article {
+      width: calc(#{(100%)} - #{$gutter * 1});
       margin: $gutter 0 0 $gutter;
     }
   }
 
   @include breakpoint('<=medium') {
-    $gutter: _size(gutter);
+    $gutter: _size(gutter) * 0.4;
+    columns: 3;
 
     margin: ($gutter * -1) 0 0 ($gutter * -1);
 
     article {
-      width: calc(#{(100% / 2)} - #{$gutter * 1});
+      width: calc(#{(100%)} - #{$gutter * 1});
       margin: $gutter 0 0 $gutter;
     }
   }
 
   @include breakpoint('<=small') {
     $gutter: _size(gutter) * 0.5;
+    columns: 2;
 
     margin: ($gutter * -1) 0 0 ($gutter * -1);
 
     article {
-      width: calc(#{(100% / 2)} - #{$gutter * 1});
+      width: calc(#{(100%)} - #{$gutter * 1});
       margin: $gutter 0 0 $gutter;
 
       &:hover {
@@ -219,7 +246,8 @@
   }
 
   @include breakpoint('<=xsmall') {
-    $gutter: _size(gutter) * 0.5;
+    $gutter: _size(gutter) * 0.6;
+    columns: 1;
 
     margin: 0;
 
