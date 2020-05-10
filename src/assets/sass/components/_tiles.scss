@@ -4,7 +4,6 @@
   $ease: 'ease';
 
 
-
   display: inline-block;
   margin: 16px;
   position: relative;
@@ -19,12 +18,13 @@
   }
 
   article {
+    //od tond
     @include vendor(
                     'transition',
                             ('transform #{$duration} #{$ease}', 'opacity #{$duration} #{$ease}')
     );
     position: relative;
-    width: calc(#{(100% / 3)} - #{$gutter * 1});
+    width: calc(#{(100% / 2)} - #{$gutter * 1});
     margin: $gutter 0 0 $gutter;
     object-fit: fill;
 
@@ -32,6 +32,7 @@
       @include vendor('transition', 'transform #{$duration} #{$ease}');
 
       display: block;
+      box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       width: 100%;
       border-radius: _size(border-radius);
       overflow: hidden;
@@ -59,7 +60,7 @@
         height: 100%;
         opacity: 1;
         z-index: 1;
-        opacity: 0; // zmiana przyciemniena obrazu!!!!!!!!
+        opacity: 0,3; // zmiana przyciemniena obrazu!!!!!!!!
       }
 
       &:after {
@@ -75,7 +76,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        opacity: 0.4; // poczatkowe przyciemniene zdjecia!!!!!!
+        opacity: 0; // poczatkowe przyciemniene zdjecia!!!!!!
         z-index: 2;
       }
     }
@@ -101,7 +102,7 @@
       padding: 1em;
       border-radius: _size(border-radius);
       border-bottom: 0;
-      color: _palette(fg-accent);
+      color: _palette(bl);
       text-align: center;
       text-decoration: none;
       z-index: 3;
@@ -111,7 +112,7 @@
       }
 
       &:hover {
-        color: _palette(fg-accent) !important; // kolor tekstu w obrazie
+        color: _palette(bl) !important; // kolor tekstu w obrazie
       }
 
       h2 {
@@ -134,7 +135,7 @@
         }
       }
     }
-
+    // do tond
     &.style1 {
       > .image:after {
         background-color: _palette(bl); // koror przyciemniena zdjecia
@@ -147,8 +148,8 @@
           @include vendor('transform', 'scale(1.065)'); // powiekszenie zdjecia po najechaiu
 
           &:before {
-            background-color: _palette(bg-accent);
-            opacity: 0;
+            background-color: _palette(bo);
+            opacity: 0.7;
           }
 
           &:after {
@@ -192,8 +193,9 @@
 
   // wielkosci zdjec i ilosci w kolumnach
   @include  breakpoint('<=xlarge') {
-    $gutter: _size(gutter) * 0.3;
-    columns: 5;
+    $gutter: _size(gutter) * 1;
+    padding: 100px;
+    columns: 2;
 
     margin: ($gutter * -1) 0 0 ($gutter * -1);
 
@@ -204,8 +206,9 @@
   }
 
   @include breakpoint('<=large') {
-    $gutter: _size(gutter) * 0.35;
-    columns: 4;
+    $gutter: _size(gutter) * 1;
+    padding: 80px;
+    columns: 2;
 
     margin: ($gutter * -1) 0 0 ($gutter * -1);
 
@@ -216,8 +219,9 @@
   }
 
   @include breakpoint('<=medium') {
-    $gutter: _size(gutter) * 0.4;
-    columns: 3;
+    $gutter: _size(gutter) * 1;
+    padding: 60px;
+    columns: 2;
 
     margin: ($gutter * -1) 0 0 ($gutter * -1);
 
@@ -228,8 +232,9 @@
   }
 
   @include breakpoint('<=small') {
-    $gutter: _size(gutter) * 0.5;
-    columns: 2;
+    $gutter: _size(gutter) * 1;
+    padding: 40px;
+    columns: 1;
 
     margin: ($gutter * -1) 0 0 ($gutter * -1);
 
@@ -246,7 +251,9 @@
   }
 
   @include breakpoint('<=xsmall') {
-    $gutter: _size(gutter) * 0.6;
+    $gutter: _size(gutter) * 0.5;
+    padding: 30px;
+
     columns: 1;
 
     margin: 0;

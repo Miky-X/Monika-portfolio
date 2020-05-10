@@ -3,9 +3,9 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 
-import pic1 from '../assets/images/1.jpg';
-import pic2 from '../assets/images/2.jpg';
-import pic3 from '../assets/images/3.jpg';
+import pic1 from '../assets/images/60.jpg';
+import pic2 from '../assets/images/90.jpg';
+import pic3 from '../assets/images/120.jpg';
 import pic4 from '../assets/images/4.jpg';
 import pic5 from '../assets/images/5.jpg';
 import pic6 from '../assets/images/6.jpg';
@@ -34,319 +34,325 @@ import { Link } from 'gatsby';
 const IndexPage = () => (
   <Layout>
     <Sidebar />
-    <div id="main">
-      <div className="inner">
-        <header>
-          <h1>
-            PORTFOLIO
-            <br />
-          </h1>
-          <p>
-            Jakiś opis?
-          </p>
-        </header>
-        <section className="tiles">
-          <article className="style1">
+    <div >
+      <div id="main">
+        <div className="inner">
+
+
+
+
+
+
+
+          <section className="tiles">
+
+            <article className="style1">
             <span className="image">
               <img src={pic1} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="Image">
+                <div className="content">
+                  <p>
+                    Nazwa / 50x80
+                  </p>
+                </div>
+              </Link>
+            </article>
+
+
+
+
+
+            <article className="style1">
             <span className="image">
               <img src={pic2} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic3} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/../Content/Image3">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic4} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/../Content/Image4">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic5} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/../Content/Image5">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic6} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic7} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic8} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic9} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic10} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic11} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic12} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic13} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic14} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic15} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic16} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic17} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic18} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic19} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic20} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic21} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic22} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic23} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic24} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
+              <Link to="/Generic">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
             <span className="image">
               <img src={pic25} alt="" />
             </span>
-            <Link to="/Generic">
-              <div className="content">
-                <p>
-                  Tekst po najechaniu na zdjecie
-                </p>
-              </div>
-            </Link>
-          </article>
-        </section>
+              <Link to="/">
+                <div className="content">
+                  <p>
+                    Tekst po najechaniu na zdjecie
+                  </p>
+                </div>
+              </Link>
+            </article>
+          </section>
+        </div>
       </div>
     </div>
   </Layout>
