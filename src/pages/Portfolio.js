@@ -50,7 +50,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic1} alt="" />
             </span>
-              <Link to="Image">
+              <Link to=".#">
                 <div className="content">
                   <p>
                     Nazwa / 50x80
