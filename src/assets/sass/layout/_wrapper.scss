@@ -14,5 +14,27 @@
 				padding: 0 $gutter;
 			}
 		}
+		> .inner2 {
+			$gutter: _size(gutter);
+			img {
+				margin: 0 auto;
+				max-width: 100%;
+				margin: 0 auto;
+				padding: 0 $gutter;
+			}
+			$gutter: _size(gutter);
+
+			width: 100%;
+
+			@include breakpoint('<=small') {
+				$gutter: _size(gutter) * 0.5;
+
+				padding: 0 $gutter;
+			}
+			.text2 {
+				padding: 50px 90px; //padding tekstu
+				text-align: justify;
+			}
+		}
 	}
 }

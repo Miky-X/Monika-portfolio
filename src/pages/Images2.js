@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Layout from '../../components/Layout';
+import Layout from '../components/Layout';
 
-import pic1 from '../../assets/img/About.jpg';
-import Sidebar from '../../components/Sidebar';
+import pic26 from '../assets/images/2.jpg';
+import Sidebar from '../components/Sidebar';
 
 
 const IndexPage = () => (
@@ -11,11 +11,11 @@ const IndexPage = () => (
     <Sidebar />
 
     <div id="main">
-      <div className="inner">
-            <span className="image main">
-              <img src={pic1} alt="" />
+      <div className="inner2">
+            <span className="image main2">
+              <img src={pic26} alt="" />
             </span>
-        <div className="text">
+        <div className="text2">
           <p>
             Modern self-taught minimalist living in Poznań, Poland - that’s how I would describe myself in a few words.
           </p>
