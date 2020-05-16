@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic26 from '../assets/images/2.jpg';
+import pic12 from '../assets/images/12.jpg';
 import Sidebar from '../components/Sidebar';
 
 
@@ -13,7 +13,7 @@ const IndexPage = () => (
     <div id="main">
       <div className="inner2">
             <span className="image main2">
-              <img src={pic26} alt="" />
+              <img src={pic12} alt="" />
             </span>
         <div className="text2">
           <p>
