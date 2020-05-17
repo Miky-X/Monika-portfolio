@@ -21,7 +21,7 @@ const IndexPage = () => (
             Size: 60x60
           </p>
           <p>
-            Price: 250PLN
+            Price: SOLD
           </p>
         </div>
       </div>
