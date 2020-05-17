@@ -9,7 +9,7 @@
   &:before {
     border-radius: 5px;
     content:'';
-    position:absolute;
+    position: relative;
     top:0;
     right:0;
     bottom:0;
@@ -17,7 +17,6 @@
   }
 
   article {
-    //od tond
     @include vendor(
                     'transition',
                             ('transform #{$duration} #{$ease}', 'opacity #{$duration} #{$ease}')
@@ -134,7 +133,6 @@
         }
       }
     }
-    // do tond
     &.style1 {
       > .image:after {
         background-color: _palette(bl); // koror przyciemniena zdjecia
@@ -252,6 +250,10 @@
   @include breakpoint('<=xsmall') {
     $gutter: _size(gutter) * 0.5;
     padding: 30px;
+
+    .style1 {
+      padding-bottom: 60px;
+    }
 
     columns: 1;
 

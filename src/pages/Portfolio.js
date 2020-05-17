@@ -58,7 +58,7 @@ const IndexPage = () => (
               <Link to="Portfolio1">
                 <div className="content">
                   <p>
-                    Nazwa / 60x110
+                    Size: 60x110
                   </p>
                 </div>
               </Link>
@@ -70,7 +70,7 @@ const IndexPage = () => (
               <Link to="Portfolio2">
                 <div className="content">
                   <p>
-                    Nazwa / 50x50
+                    Size: 50x50
                   </p>
                 </div>
               </Link>
@@ -82,7 +82,7 @@ const IndexPage = () => (
               <Link to="Portfolio3">
                 <div className="content">
                   <p>
-                    Nazwa / 45x45
+                    Size: 45x45
                   </p>
                 </div>
               </Link>
@@ -94,7 +94,7 @@ const IndexPage = () => (
               <Link to="Portfolio4">
                 <div className="content">
                   <p>
-                    Nazwa / 60x90
+                    Size: 60x90
                   </p>
                 </div>
               </Link>
@@ -106,7 +106,7 @@ const IndexPage = () => (
               <Link to="Portfolio5">
                 <div className="content">
                   <p>
-                    Nazwa / 60x120
+                    Size: 60x120
                   </p>
                 </div>
               </Link>
@@ -118,7 +118,7 @@ const IndexPage = () => (
               <Link to="Portfolio6">
                 <div className="content">
                   <p>
-                    Nazwa / 45x45
+                    Size: 45x45
                   </p>
                 </div>
               </Link>
@@ -130,7 +130,7 @@ const IndexPage = () => (
               <Link to="Portfolio7">
                 <div className="content">
                   <p>
-                    Nazwa / 50x50
+                    Size: 50x50
                   </p>
                 </div>
               </Link>
@@ -142,7 +142,7 @@ const IndexPage = () => (
               <Link to="Portfolio20">
                 <div className="content">
                   <p>
-                    Nazwa / 60x60
+                    Size: 60x60
                   </p>
                 </div>
               </Link>
@@ -154,7 +154,7 @@ const IndexPage = () => (
               <Link to="Portfolio9">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 50x80
                   </p>
                 </div>
               </Link>
@@ -166,7 +166,7 @@ const IndexPage = () => (
               <Link to="Portfolio10">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 50x90
                   </p>
                 </div>
               </Link>
@@ -178,7 +178,7 @@ const IndexPage = () => (
               <Link to="Portfolio11">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 50x90
                   </p>
                 </div>
               </Link>
@@ -190,7 +190,7 @@ const IndexPage = () => (
               <Link to="Portfolio12">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 50x80
                   </p>
                 </div>
               </Link>
@@ -202,7 +202,7 @@ const IndexPage = () => (
               <Link to="Portfolio18">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x60
                   </p>
                 </div>
               </Link>
@@ -214,7 +214,7 @@ const IndexPage = () => (
               <Link to="Portfolio14">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 50x50
                   </p>
                 </div>
               </Link>
@@ -226,7 +226,7 @@ const IndexPage = () => (
               <Link to="Portfolio22">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 70x40
                   </p>
                 </div>
               </Link>
@@ -238,7 +238,7 @@ const IndexPage = () => (
               <Link to="Portfolio17">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x50
                   </p>
                 </div>
               </Link>
@@ -250,7 +250,7 @@ const IndexPage = () => (
               <Link to="Portfolio34">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 30
                   </p>
                 </div>
               </Link>
@@ -262,7 +262,7 @@ const IndexPage = () => (
               <Link to="Portfolio13">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x60
                   </p>
                 </div>
               </Link>
@@ -274,7 +274,7 @@ const IndexPage = () => (
               <Link to="Portfolio25">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x60
                   </p>
                 </div>
               </Link>
@@ -286,7 +286,7 @@ const IndexPage = () => (
               <Link to="Portfolio8">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x50
                   </p>
                 </div>
               </Link>
@@ -298,7 +298,7 @@ const IndexPage = () => (
               <Link to="Portfolio21">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x100
                   </p>
                 </div>
               </Link>
@@ -310,7 +310,7 @@ const IndexPage = () => (
               <Link to="Portfolio15">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x90
                   </p>
                 </div>
               </Link>
@@ -322,7 +322,7 @@ const IndexPage = () => (
               <Link to="Portfolio23">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x60
                   </p>
                 </div>
               </Link>
@@ -334,7 +334,7 @@ const IndexPage = () => (
               <Link to="Portfolio24">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x60
                   </p>
                 </div>
               </Link>
@@ -346,7 +346,7 @@ const IndexPage = () => (
               <Link to="Portfolio19">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x90
                   </p>
                 </div>
               </Link>
@@ -358,7 +358,7 @@ const IndexPage = () => (
               <Link to="Portfolio26">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x60
                   </p>
                 </div>
               </Link>
@@ -370,7 +370,7 @@ const IndexPage = () => (
               <Link to="Portfolio27">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 50x80
                   </p>
                 </div>
               </Link>
@@ -382,7 +382,7 @@ const IndexPage = () => (
               <Link to="Portfolio28">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 40x40
                   </p>
                 </div>
               </Link>
@@ -394,7 +394,7 @@ const IndexPage = () => (
               <Link to="Portfolio29">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x80
                   </p>
                 </div>
               </Link>
@@ -406,7 +406,7 @@ const IndexPage = () => (
               <Link to="Portfolio30">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x90
                   </p>
                 </div>
               </Link>
@@ -418,7 +418,7 @@ const IndexPage = () => (
               <Link to="Portfolio31">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x120
                   </p>
                 </div>
               </Link>
@@ -430,7 +430,7 @@ const IndexPage = () => (
               <Link to="Portfolio32">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 50x100
                   </p>
                 </div>
               </Link>
@@ -442,7 +442,7 @@ const IndexPage = () => (
               <Link to="Portfolio33">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x60
                   </p>
                 </div>
               </Link>
@@ -454,7 +454,7 @@ const IndexPage = () => (
               <Link to="Portfolio16">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 60x60
                   </p>
                 </div>
               </Link>
@@ -466,7 +466,7 @@ const IndexPage = () => (
               <Link to="Portfolio35">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 30
                   </p>
                 </div>
               </Link>
@@ -478,7 +478,7 @@ const IndexPage = () => (
               <Link to="Portfolio36">
                 <div className="content">
                   <p>
-                    Nazwa / 50x80
+                    Size: 30
                   </p>
                 </div>
               </Link>

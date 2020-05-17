@@ -13,7 +13,7 @@ const IndexPage = () => (
     <div id="main">
       <div className="inner">
             <span className="image main">
-              <img src={pic1} alt="" />
+              <img className="picture" src={pic1} alt="" />
             </span>
         <div className="text">
           <p>

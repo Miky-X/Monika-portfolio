@@ -1,6 +1,8 @@
 div .text {
   position: absolute;
-  top: 18%;
+  height: 10em;
+  align-items: center;
+  justify-content: center;
   left: 50%;
   padding: 2.75em;
   text-align: justify;
@@ -10,5 +12,28 @@ div .text {
     top: -30px;
     left: 0px;
     padding: 1.75em;
+  }
+}
+
+.picture {
+
+  border-radius: _size(border-radius);
+  border: 0;
+  display: wrap;
+  position: absolute;
+  padding-top: 30;
+
+  img {
+    border-radius: _size(border-radius);
+    display: block;
+  }
+
+  &.left,
+  &.right {
+    max-width: 40%;
+
+    img {
+      width: 100%;
+    }
   }
 }
