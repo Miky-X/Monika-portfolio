@@ -40,9 +40,11 @@ import pic34 from '../assets/images/34.jpg';
 import pic35 from '../assets/images/35.jpg';
 import pic36 from '../assets/images/36.jpg';
 
-
-
 import { Link } from 'gatsby';
+
+const firstArticle = {
+  marginTop: 0
+};
 
 const IndexPage = () => (
   <Layout>
@@ -51,7 +53,7 @@ const IndexPage = () => (
       <div id="main">
         <div className="inner">
           <section className="tiles">
-            <article className="style1">
+            <article className="style1" style={firstArticle}>
             <span className="image">
               <img src={pic1} alt="" />
             </span>
