@@ -9,7 +9,7 @@
 			padding: 0 $gutter;
 
 			@include breakpoint('<=xxlarge') {
-				margin-left: 100px;
+				margin-left: 10px;
 			}
 
 			@include breakpoint('<=small') {
