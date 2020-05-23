@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import config from '../../config';
+
+import { Link } from 'gatsby';
 
 export default function Footer() {
   return (
-    <header id="header2">
+    <header id="header">
       <h1>{config.heading}</h1>
       <p>{config.subHeading}</p>
       <div className='LinkPage'>

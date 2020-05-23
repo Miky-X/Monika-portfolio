@@ -7,12 +7,34 @@ div .text {
   padding: 2.75em;
   text-align: justify;
 
-  @include breakpoint('<=small') {
-    position: relative;
+  @include breakpoint('<=xxlarge') {
+    left: 850px;
+  }
+
+  @include breakpoint('<=xlarge') {
+    left: 750px;
+  }
+
+  @include breakpoint('<=large') {
+    left: 650px;
+  }
+
+  @include breakpoint('<=medium') {
+    position: center;
     height: 10em;
-    top: 470px;
-    left: 0px;
-    padding: 1.75em;
+    top: 750px;
+    left: 50px;
+    right: 50px;
+    padding: 1em;
+  }
+
+  @include breakpoint('<=small') {
+    position: center;
+    height: 10em;
+    top: 600px;
+    left: 30px;
+    right: 30px;
+    padding: 1em;
   }
 }
 

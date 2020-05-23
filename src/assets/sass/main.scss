@@ -16,7 +16,8 @@
 // Breakpoints.
 
 	@include breakpoints((
-		xlarge:   ( 1281px,  4680px ),
+		xxlarge:  ( 1801px,  4680px ),
+		xlarge:   ( 1281px,  1800px ),
 		large:    ( 981px,   1280px ),
 		medium:   ( 737px,   980px  ),
 		small:    ( 481px,   736px  ),
@@ -44,7 +45,6 @@
 	@import 'components/button';
 	@import 'components/form';
 	@import 'components/image';
-	@import 'components/gallery';
 	@import 'components/portfolio';
 
 // Layout.

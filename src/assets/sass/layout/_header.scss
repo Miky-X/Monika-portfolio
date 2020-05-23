@@ -1,5 +1,5 @@
 #header {
-	@include padding(0em, 0, (1em, 0, -5em, 0));
+	@include padding(30em, 0, (1em, 0, -5em, 0));
 
 	h1 {
 		font-family: sans-serif;
@@ -124,7 +124,7 @@
 	}
 
 	@include breakpoint('<=small') {
-		@include padding(0em, 0, (0.5em, 0, -3em, 0));
+		@include padding(18em, 0, (0.5em, 0, -3em, 0));
 
 		nav {
 			right: 0.5em;
