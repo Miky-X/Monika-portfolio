@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 
 export default function Footer() {
   return (
-    <header id="header">
+    <header id="header2">
       <h1>{config.heading}</h1>
       <p>{config.subHeading}</p>
       <div className='LinkPage'>
