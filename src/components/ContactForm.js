@@ -3,7 +3,7 @@ export default function ContactForm() {
   return (
     <section>
       <h2>Get in touch</h2>
-      <form method="post" action="POST" data-netlify="true">
+      <form method="post" data-netlify="true" netlify-honeypot="bot-field" netlify>
         <div className="fields">
           <div className="field half">
             <input type="text" name="name" id="name" placeholder="Name" />
