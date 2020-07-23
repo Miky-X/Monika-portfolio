@@ -485,6 +485,66 @@ const IndexPage = () => (
                 </div>
               </Link>
             </article>
+            <article className="style1">
+            <span className="image">
+              <img src={pic37} alt="" />
+            </span>
+              <Link to="Portfolio37">
+                <div className="content">
+                  <p>
+                    Size: 60x120
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
+            <span className="image">
+              <img src={pic38} alt="" />
+            </span>
+              <Link to="Portfolio38">
+                <div className="content">
+                  <p>
+                    Size: 50x50
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
+            <span className="image">
+              <img src={pic39} alt="" />
+            </span>
+              <Link to="Portfolio39">
+                <div className="content">
+                  <p>
+                    Size: 60x60
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
+            <span className="image">
+              <img src={pic40} alt="" />
+            </span>
+              <Link to="Portfolio40">
+                <div className="content">
+                  <p>
+                    Size: 60x60
+                  </p>
+                </div>
+              </Link>
+            </article>
+            <article className="style1">
+            <span className="image">
+              <img src={pic41} alt="" />
+            </span>
+              <Link to="Portfolio41">
+                <div className="content">
+                  <p>
+                    Size: 60x90
+                  </p>
+                </div>
+              </Link>
+            </article>
           </section>
         </div>
       </div>
