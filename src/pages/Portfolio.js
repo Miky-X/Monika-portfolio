@@ -39,6 +39,11 @@ import pic33 from '../assets/images/33.jpg';
 import pic34 from '../assets/images/34.jpg';
 import pic35 from '../assets/images/35.jpg';
 import pic36 from '../assets/images/36.jpg';
+import pic37 from '../assets/images/37.jpg';
+import pic38 from '../assets/images/38.jpg';
+import pic39 from '../assets/images/39.jpg';
+import pic40 from '../assets/images/40.jpg';
+import pic41 from '../assets/images/41.jpg';
 
 import { Link } from 'gatsby';
 
