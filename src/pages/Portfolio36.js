@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 
-import pic36 from '../assets/images/36.jpg';
+import pic36 from '../assets/images/36.png';
 import Sidebar from '../components/Sidebar';
 
 
