@@ -110,7 +110,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic5} alt="" />
             </span>
-              <Link to={"Portfolio5"}>
+              <Link to="Portfolio5">
                 <div className="content">
                   <p>
                     Size: 60x120
