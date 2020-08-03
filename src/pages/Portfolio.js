@@ -62,7 +62,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic1} alt="" />
             </span>
-              <Link to="Portfolio1">
+              <Link to='Portfolio1'>
                 <div className="content">
                   <p>
                     Size: 60x110
@@ -74,7 +74,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic2} alt="" />
             </span>
-              <Link to="Portfolio2">
+              <Link to='Portfolio2'>
                 <div className="content">
                   <p>
                     Size: 50x50
@@ -86,7 +86,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic3} alt="" />
             </span>
-              <Link to="Portfolio3">
+              <Link to='Portfolio3'>
                 <div className="content">
                   <p>
                     Size: 45x45
@@ -98,7 +98,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic4} alt="" />
             </span>
-              <Link to="Portfolio4">
+              <Link to='Portfolio4'>
                 <div className="content">
                   <p>
                     Size: 60x90
@@ -110,7 +110,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic5} alt="" />
             </span>
-              <Link to="Portfolio5">
+              <Link to='Portfolio5'>
                 <div className="content">
                   <p>
                     Size: 60x120
@@ -122,7 +122,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic6} alt="" />
             </span>
-              <Link to="Portfolio6">
+              <Link to='Portfolio6'>
                 <div className="content">
                   <p>
                     Size: 45x45
@@ -134,7 +134,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic7} alt="" />
             </span>
-              <Link to="Portfolio7">
+              <Link to='Portfolio7'>
                 <div className="content">
                   <p>
                     Size: 50x50
@@ -146,7 +146,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic20} alt="" />
             </span>
-              <Link to="Portfolio20">
+              <Link to='Portfolio20'>
                 <div className="content">
                   <p>
                     Size: 60x60
@@ -158,7 +158,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic9} alt="" />
             </span>
-              <Link to="Portfolio9">
+              <Link to='Portfolio9'>
                 <div className="content">
                   <p>
                     Size: 50x80
@@ -170,7 +170,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic10} alt="" />
             </span>
-              <Link to="Portfolio10">
+              <Link to='Portfolio10'>
                 <div className="content">
                   <p>
                     Size: 50x90
@@ -182,7 +182,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic11} alt="" />
             </span>
-              <Link to="Portfolio11">
+              <Link to='Portfolio11'>
                 <div className="content">
                   <p>
                     Size: 50x90
@@ -194,7 +194,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic12} alt="" />
             </span>
-              <Link to="Portfolio12">
+              <Link to='Portfolio12'>
                 <div className="content">
                   <p>
                     Size: 50x80
@@ -206,7 +206,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic18} alt="" />
             </span>
-              <Link to="Portfolio18">
+              <Link to='Portfolio18'>
                 <div className="content">
                   <p>
                     Size: 60x60
@@ -218,7 +218,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic14} alt="" />
             </span>
-              <Link to="Portfolio14">
+              <Link to='Portfolio14'>
                 <div className="content">
                   <p>
                     Size: 50x50
@@ -230,7 +230,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic22} alt="" />
             </span>
-              <Link to="Portfolio22">
+              <Link to='Portfolio22'>
                 <div className="content">
                   <p>
                     Size: 70x40
@@ -242,7 +242,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic17} alt="" />
             </span>
-              <Link to="Portfolio17">
+              <Link to='Portfolio17'>
                 <div className="content">
                   <p>
                     Size: 60x50
@@ -254,7 +254,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic34} alt="" />
             </span>
-              <Link to="Portfolio34">
+              <Link to='Portfolio34'>
                 <div className="content">
                   <p>
                     Size: 30
@@ -266,7 +266,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic13} alt="" />
             </span>
-              <Link to="Portfolio13">
+              <Link to='Portfolio13'>
                 <div className="content">
                   <p>
                     Size: 60x60
@@ -278,7 +278,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic25} alt="" />
             </span>
-              <Link to="Portfolio25">
+              <Link to='Portfolio25'>
                 <div className="content">
                   <p>
                     Size: 60x60
@@ -290,7 +290,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic8} alt="" />
             </span>
-              <Link to="Portfolio8">
+              <Link to='Portfolio8'>
                 <div className="content">
                   <p>
                     Size: 60x50
@@ -302,7 +302,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic21} alt="" />
             </span>
-              <Link to="Portfolio21">
+              <Link to='Portfolio21'>
                 <div className="content">
                   <p>
                     Size: 60x100
@@ -314,7 +314,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic15} alt="" />
             </span>
-              <Link to="Portfolio15">
+              <Link to='Portfolio15'>
                 <div className="content">
                   <p>
                     Size: 60x90
@@ -326,7 +326,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic23} alt="" />
             </span>
-              <Link to="Portfolio23">
+              <Link to='Portfolio23'>
                 <div className="content">
                   <p>
                     Size: 60x60
@@ -338,7 +338,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic24} alt="" />
             </span>
-              <Link to="Portfolio24">
+              <Link to='Portfolio24'>
                 <div className="content">
                   <p>
                     Size: 60x60
@@ -350,7 +350,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic19} alt="" />
             </span>
-              <Link to="Portfolio19">
+              <Link to='Portfolio19'>
                 <div className="content">
                   <p>
                     Size: 60x90
@@ -362,7 +362,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic26} alt="" />
             </span>
-              <Link to="Portfolio26">
+              <Link to='Portfolio26'>
                 <div className="content">
                   <p>
                     Size: 60x60
@@ -374,7 +374,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic27} alt="" />
             </span>
-              <Link to="Portfolio27">
+              <Link to='Portfolio27'>
                 <div className="content">
                   <p>
                     Size: 50x80
@@ -386,7 +386,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic28} alt="" />
             </span>
-              <Link to="Portfolio28">
+              <Link to='Portfolio28'>
                 <div className="content">
                   <p>
                     Size: 40x40
@@ -398,7 +398,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic29} alt="" />
             </span>
-              <Link to="Portfolio29">
+              <Link to='Portfolio29'>
                 <div className="content">
                   <p>
                     Size: 60x80
@@ -410,7 +410,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic30} alt="" />
             </span>
-              <Link to="Portfolio30">
+              <Link to='Portfolio30'>
                 <div className="content">
                   <p>
                     Size: 60x90
@@ -422,7 +422,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic31} alt="" />
             </span>
-              <Link to="Portfolio31">
+              <Link to='Portfolio31'>
                 <div className="content">
                   <p>
                     Size: 60x120
@@ -434,7 +434,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic32} alt="" />
             </span>
-              <Link to="Portfolio32">
+              <Link to='Portfolio32'>
                 <div className="content">
                   <p>
                     Size: 50x100
@@ -446,7 +446,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic33} alt="" />
             </span>
-              <Link to="Portfolio33">
+              <Link to='Portfolio33'>
                 <div className="content">
                   <p>
                     Size: 60x60
@@ -458,7 +458,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic16} alt="" />
             </span>
-              <Link to="Portfolio16">
+              <Link to='Portfolio16'>
                 <div className="content">
                   <p>
                     Size: 60x60
@@ -470,7 +470,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic35} alt="" />
             </span>
-              <Link to="Portfolio35">
+              <Link to='Portfolio35'>
                 <div className="content">
                   <p>
                     Size: 30
@@ -482,7 +482,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic36} alt="" />
             </span>
-              <Link to="Portfolio36">
+              <Link to='Portfolio36'>
                 <div className="content">
                   <p>
                     Size: 30
@@ -494,7 +494,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic37} alt="" />
             </span>
-              <Link to="Portfolio37">
+              <Link to='Portfolio37'>
                 <div className="content">
                   <p>
                     Size: 60x120
@@ -506,7 +506,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic38} alt="" />
             </span>
-              <Link to="Portfolio38">
+              <Link to='Portfolio38'>
                 <div className="content">
                   <p>
                     Size: 50x50
@@ -518,7 +518,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic39} alt="" />
             </span>
-              <Link to="Portfolio39">
+              <Link to='Portfolio39'>
                 <div className="content">
                   <p>
                     Size: 60x60
@@ -530,7 +530,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic40} alt="" />
             </span>
-              <Link to="Portfolio40">
+              <Link to='Portfolio40'>
                 <div className="content">
                   <p>
                     Size: 60x60
@@ -542,7 +542,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic41} alt="" />
             </span>
-              <Link to="Portfolio41">
+              <Link to='Portfolio41'>
                 <div className="content">
                   <p>
                     Size: 60x90
