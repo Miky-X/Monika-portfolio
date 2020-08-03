@@ -2,12 +2,12 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import IndexHeader from '../components/IndexHeader';
-import Bacground from '../components/Background';
+import Background from '../components/Background';
 
 
 const IndexPage = () => (
 <div>
-<Bacground/>
+<Background/>
   <Layout>
     <IndexHeader />
 
