@@ -10,10 +10,10 @@ var settings = {
   delay: 6000,
 };
 
-const Bacground = () => (
+const Background = () => (
 
     <SlideShow settings={settings} />
 
 );
 
-export default Bacground;
+export default Background;
