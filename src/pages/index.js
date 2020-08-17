@@ -10,8 +10,6 @@ const IndexPage = () => (
 <Background/>
   <Layout>
     <IndexHeader />
-
-
     </Layout>
 </div>
 );
