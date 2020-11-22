@@ -36,9 +36,6 @@ import pic30 from '../assets/images/30.jpg';
 import pic31 from '../assets/images/31.jpg';
 import pic32 from '../assets/images/32.jpg';
 import pic33 from '../assets/images/33.jpg';
-import pic34 from '../assets/images/34.jpg';
-import pic35 from '../assets/images/35.jpg';
-import pic36 from '../assets/images/36.jpg';
 import pic37 from '../assets/images/37.jpg';
 import pic38 from '../assets/images/38.jpg';
 import pic39 from '../assets/images/39.jpg';
@@ -252,18 +249,6 @@ const IndexPage = () => (
             </article>
             <article className="style1">
             <span className="image">
-              <img src={pic34} alt="" />
-            </span>
-              <Link to='/Portfolio34'>
-                <div className="content">
-                  <p>
-                    Size: 30
-                  </p>
-                </div>
-              </Link>
-            </article>
-            <article className="style1">
-            <span className="image">
               <img src={pic13} alt="" />
             </span>
               <Link to='/Portfolio13'>
@@ -462,30 +447,6 @@ const IndexPage = () => (
                 <div className="content">
                   <p>
                     Size: 60x60
-                  </p>
-                </div>
-              </Link>
-            </article>
-            <article className="style1">
-            <span className="image">
-              <img src={pic35} alt="" />
-            </span>
-              <Link to='/Portfolio35'>
-                <div className="content">
-                  <p>
-                    Size: 30
-                  </p>
-                </div>
-              </Link>
-            </article>
-            <article className="style1">
-            <span className="image">
-              <img src={pic36} alt="" />
-            </span>
-              <Link to='/Portfolio36'>
-                <div className="content">
-                  <p>
-                    Size: 30
                   </p>
                 </div>
               </Link>
